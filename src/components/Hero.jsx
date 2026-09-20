@@ -49,14 +49,14 @@ export default function Hero() {
                 marginBottom: '1rem',
               }}
             >
-              Desenvolvedor Back-end &{' '}
+              Desenvolvedor Full-Stack &{' '}
               <span
                 style={{
                   fontStyle: 'italic',
                   color: 'var(--color-corporate)',
                 }}
               >
-                Pesquisador de Sistemas
+                Pesquisador IC
               </span>
               .
             </h1>
