@@ -14,15 +14,15 @@ import {
   Terminal, 
   Network, 
   Car, 
-  Binary, 
   Activity, 
   FileCheck 
 } from 'lucide-react';
+import { formatExperiencePeriod } from '../utils/dateUtils';
 
 export default function ExperienceSkills() {
   const timeline = [
     {
-      period: 'fev 2026 – Presente (8 meses)',
+      period: formatExperiencePeriod({ startYear: 2026, startMonth: 2, isCurrent: true, showDuration: true }),
       title: 'Analista de Sistemas (Estagiário)',
       institution: 'BNDES',
       location: 'Rio de Janeiro, RJ',
@@ -32,7 +32,7 @@ export default function ExperienceSkills() {
       summary: 'Atuação no desenvolvimento web com React.js, Node.js, Java, modelagem de sistemas, bancos relacionais. Além da utilização de ferramentas de CI/CD, versionamento e conteinerização com Docker'
     },
     {
-      period: 'jun 2026 – Presente (4 meses)',
+      period: formatExperiencePeriod({ startYear: 2026, startMonth: 6, isCurrent: true, showDuration: true }),
       title: 'Bolsista IC – Projeto MobiCiber',
       institution: 'Inmetro',
       location: 'Duque de Caxias, RJ',
@@ -42,7 +42,7 @@ export default function ExperienceSkills() {
       summary: 'Desenvolvimento de dispositivo para detecção e proteção contra intrusão em redes, sistemas e aplicações veiculares (cibersegurança automotiva e rede CAN).',
     },
     {
-      period: 'mar 2025 – jun 2026 (1 ano e 4 meses)',
+      period: formatExperiencePeriod({ startYear: 2025, startMonth: 3, endYear: 2026, endMonth: 6, showDuration: true }),
       title: 'Bolsista IT – Sistemas Distribuídos & Aprendizagem Federada',
       institution: 'Inmetro',
       location: 'Duque de Caxias, RJ',
@@ -52,7 +52,7 @@ export default function ExperienceSkills() {
       summary: 'Projeto de sistema distribuído escalável para estimativa de demanda energética de frotas com aprendizagem federada, coleta de dados e simulação veicular.',
     },
     {
-      period: 'abr 2025 – dez 2025 (9 meses)',
+      period: formatExperiencePeriod({ startYear: 2025, startMonth: 4, endYear: 2025, endMonth: 12, showDuration: true }),
       title: 'Monitor de Programação Orientada a Objetos',
       institution: 'CEFET/RJ',
       location: 'Rio de Janeiro, RJ',
@@ -62,7 +62,7 @@ export default function ExperienceSkills() {
       summary: 'Tutoria e acompanhamento de alunos no paradigma de Orientação a Objetos e linguagem Java, com plantão de dúvidas e exercícios nos laboratórios e Teams.',
     },
     {
-      period: 'mar 2023 – Presente',
+      period: formatExperiencePeriod({ startYear: 2023, startMonth: 3, isCurrent: true, showDuration: false }),
       title: 'Bacharelado em Ciência da Computação (BCC)',
       institution: 'CEFET/RJ',
       location: 'Rio de Janeiro, RJ',

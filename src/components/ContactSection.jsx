@@ -1,6 +1,7 @@
 import { useState } from 'react';
 import { Mail, Copy, Check, ArrowUpRight, MessageSquare } from 'lucide-react';
 import { GithubIcon, LinkedinIcon } from './Icons';
+import { getCurrentYear } from '../utils/dateUtils';
 
 export default function ContactSection() {
   const [copied, setCopied] = useState(false);
@@ -138,7 +139,7 @@ export default function ContactSection() {
             <strong style={{ color: 'var(--text-primary)' }}>Erick Borba</strong> — CEFET/RJ • BNDES • Inmetro
           </div>
           <div>
-            © {new Date().getFullYear()} • Todos os direitos reservados.
+            © {getCurrentYear()} • Todos os direitos reservados.
           </div>
         </div>
       </div>
