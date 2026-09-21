@@ -75,7 +75,7 @@ export default function ExperienceSkills() {
 
   const horizontalSkillGroups = [
     {
-      category: 'Desenvolvimento Web Full-Stack',
+      category: 'Desenvolvimento Web',
       icon: <Server size={17} color="var(--color-corporate)" />,
       skills: [
         { name: 'Java', icon: <Code2 size={13} /> },
@@ -88,6 +88,7 @@ export default function ExperienceSkills() {
         { name: 'PostgresSQL', icon: <Database size={13} /> },
         { name: 'MySQL', icon: <Database size={13} /> },
         { name: 'NoSQL', icon: <Database size={13} /> },
+        { name: 'Figma', icon: <Layers size={13} /> },
       ],
     },
     {
@@ -98,11 +99,10 @@ export default function ExperienceSkills() {
         { name: 'Padrões de Projeto (GoF)', icon: <Layers size={13} /> },
         { name: 'Engenharia de Requisitos', icon: <FileCheck size={13} /> },
         { name: 'APIs REST', icon: <Layers size={13} /> },
-        { name: 'Design & Prototipação com Figma', icon: <Layers size={13} /> },
       ],
     },
     {
-      category: 'Pesquisa Científica & Sistemas Veiculares',
+      category: 'Pesquisa Científica',
       icon: <Cpu size={17} color="var(--color-academic)" />,
       skills: [
         { name: 'Protocolo & Rede CAN', icon: <Car size={13} /> },
@@ -110,6 +110,7 @@ export default function ExperienceSkills() {
         { name: 'Sistemas Distribuídos', icon: <Network size={13} /> },
         { name: 'Simulação Automotiva', icon: <Activity size={13} /> },
         { name: 'Raspberry Pi', icon: <Cpu size={13} /> },
+        { name: 'Latex', icon: <Code2 size={13} /> },
       ],
     },
     {
@@ -119,7 +120,8 @@ export default function ExperienceSkills() {
         { name: 'Git & GitHub', icon: <GitBranch size={13} /> },
         { name: 'GNU/Linux', icon: <Terminal size={13} /> },
         { name: 'Jenkins', icon: <GitBranch size={13} /> },
-        { name: 'Docker', icon: <Layers size={13} /> }
+        { name: 'Docker', icon: <Layers size={13} /> },
+        { name: 'Actions (CI/CD)', icon: <GitBranch size={13} /> },
       ],
     },
   ];
