@@ -18,7 +18,7 @@ export default function PinnedProjects() {
       description: 'Plataforma web para matching e alocação de orientadores acadêmicos por linhas de pesquisa e interesses temáticos dos estudantes.',
       language: 'JavaScript',
       languageColor: '#eab308',
-      tags: ['React.js', 'FastAPI', 'Matching Algorítmico', 'Vercel'],
+      tags: ['React.js', 'FastAPI', 'Matching Algorítmico', 'IA'],
       githubUrl: 'https://github.com/erick1-618/orienta-ai',
       deployUrl: 'https://orienta.erickborba.dev.br',
       image: orientaAiImg,
