@@ -179,7 +179,7 @@ export default function Navbar() {
           </a>
 
           <a
-            href="mailto:erickcefetbcc@gmail.com"
+            href="mailto:contato@erickborba.dev.br"
             title="Enviar e-mail"
             className="btn btn-primary"
             style={{
