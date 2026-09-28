@@ -5,7 +5,7 @@ import { getCurrentYear } from '../utils/dateUtils';
 
 export default function ContactSection() {
   const [copied, setCopied] = useState(false);
-  const email = 'erickcefetbcc@gmail.com';
+  const email = 'contato@erickborba.dev.br';
 
   const handleCopyEmail = () => {
     navigator.clipboard.writeText(email);
