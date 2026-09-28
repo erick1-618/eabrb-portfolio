@@ -116,7 +116,7 @@ export default function Hero() {
               </a>
 
               <a
-                href="mailto:erickcefetbcc@gmail.com"
+                href="#contato"
                 className="btn btn-secondary"
                 style={{ color: 'var(--text-secondary)' }}
                 title="Enviar e-mail direto"
