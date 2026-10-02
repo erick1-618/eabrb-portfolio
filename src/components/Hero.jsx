@@ -144,7 +144,7 @@ export default function Hero() {
                 maxWidth: '290px',
                 aspectRatio: '4 / 5',
                 borderRadius: '26px',
-                background: 'linear-gradient(135deg, rgba(30, 58, 138, 0.1), rgba(180, 83, 9, 0.12))',
+                background: 'linear-gradient(135deg, rgba(27, 77, 62, 0.12), rgba(180, 83, 9, 0.12))',
                 transform: 'rotate(-3deg)',
                 zIndex: 0,
               }}

@@ -209,7 +209,7 @@ export default function PinnedProjects() {
                       aspectRatio: '16 / 9',
                       maxHeight: '220px',
                       overflow: 'hidden',
-                      background: 'linear-gradient(135deg, #1e293b, #0f172a)',
+                      background: 'linear-gradient(135deg, #182620, #0c1813)',
                       borderBottom: '1px solid var(--border-light)',
                     }}
                   >
@@ -244,8 +244,8 @@ export default function PinnedProjects() {
                         background: project.badgeType === 'deploy'
                           ? 'rgba(4, 120, 87, 0.92)'
                           : project.badgeType === 'simulation'
-                          ? 'rgba(30, 58, 138, 0.92)'
-                          : 'rgba(15, 23, 42, 0.85)',
+                          ? 'rgba(27, 77, 62, 0.92)'
+                          : 'rgba(18, 28, 22, 0.85)',
                         color: '#ffffff',
                         backdropFilter: 'blur(8px)',
                         WebkitBackdropFilter: 'blur(8px)',
@@ -260,7 +260,7 @@ export default function PinnedProjects() {
                       )}
                       {project.badgeType === 'simulation' && (
                         <>
-                          <span style={{ width: '6px', height: '6px', borderRadius: '50%', backgroundColor: '#60a5fa', display: 'inline-block' }} />
+                          <span style={{ width: '6px', height: '6px', borderRadius: '50%', backgroundColor: '#6ee7b7', display: 'inline-block' }} />
                           <span>{project.badgeText}</span>
                         </>
                       )}
@@ -458,8 +458,8 @@ export default function PinnedProjects() {
                         alignItems: 'center',
                         gap: '0.45rem',
                         fontWeight: 600,
-                        background: '#151d28',
-                        borderColor: '#151d28',
+                        background: 'var(--text-primary)',
+                        borderColor: 'var(--text-primary)',
                       }}
                     >
                       <Globe size={14} />

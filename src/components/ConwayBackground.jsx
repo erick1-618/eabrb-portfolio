@@ -132,8 +132,8 @@ export default function ConwayBackground() {
       ctx.scale(dpr, dpr);
       ctx.clearRect(0, 0, canvas.width / dpr, canvas.height / dpr);
 
-      // Clean, elegant low opacity dot style
-      ctx.fillStyle = 'rgba(28, 45, 82, 0.058)';
+      // Clean, elegant low opacity dot style in deep forest green
+      ctx.fillStyle = 'rgba(20, 52, 34, 0.065)';
       const dotRadius = cellSize * 0.32;
 
       for (let y = 0; y < rows; y++) {

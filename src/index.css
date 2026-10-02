@@ -14,23 +14,23 @@
   --border-strong: rgba(148, 142, 126, 0.35);
 
   /* Typography */
-  --text-primary: #151d28;
-  --text-secondary: #42526e;
-  --text-muted: #6b778c;
-  --text-light: #8993a4;
+  --text-primary: #161f1a;
+  --text-secondary: #3d4d44;
+  --text-muted: #627368;
+  --text-light: #87968c;
 
   /* Distinct Accents */
-  --color-corporate: #1e3a8a;       /* Deep Academic Navy */
-  --color-corporate-light: #eff6ff;
+  --color-corporate: #1b4d3e;       /* Deep Forest / Pine Green */
+  --color-corporate-light: #eef7f3;
   --color-academic: #92400e;        /* Warm Oxford Bronze / Amber */
   --color-academic-light: #fef3c7;
   --color-accent-teal: #0f766e;      /* Sage / Research Teal */
   --color-accent-teal-light: #f0fdfa;
 
-  --shadow-sm: 0 1px 3px rgba(15, 23, 42, 0.04), 0 1px 2px rgba(15, 23, 42, 0.02);
-  --shadow-md: 0 4px 16px -2px rgba(15, 23, 42, 0.06), 0 2px 6px -1px rgba(15, 23, 42, 0.03);
-  --shadow-lg: 0 12px 32px -4px rgba(15, 23, 42, 0.08), 0 4px 12px -2px rgba(15, 23, 42, 0.03);
-  --shadow-hover: 0 16px 36px -6px rgba(15, 23, 42, 0.1), 0 6px 16px -3px rgba(15, 23, 42, 0.05);
+  --shadow-sm: 0 1px 3px rgba(18, 30, 24, 0.04), 0 1px 2px rgba(18, 30, 24, 0.02);
+  --shadow-md: 0 4px 16px -2px rgba(18, 30, 24, 0.06), 0 2px 6px -1px rgba(18, 30, 24, 0.03);
+  --shadow-lg: 0 12px 32px -4px rgba(18, 30, 24, 0.08), 0 4px 12px -2px rgba(18, 30, 24, 0.03);
+  --shadow-hover: 0 16px 36px -6px rgba(18, 30, 24, 0.1), 0 6px 16px -3px rgba(18, 30, 24, 0.05);
 
   --radius-sm: 8px;
   --radius-md: 14px;
@@ -203,8 +203,8 @@ body {
 }
 
 .btn-primary:hover {
-  background: #2b394e;
-  border-color: #2b394e;
+  background: #23352a;
+  border-color: #23352a;
   transform: translateY(-1px);
   box-shadow: var(--shadow-md);
 }
@@ -248,7 +248,7 @@ body {
 .badge-corporate {
   background: var(--color-corporate-light);
   color: var(--color-corporate);
-  border: 1px solid rgba(30, 58, 138, 0.15);
+  border: 1px solid rgba(27, 77, 62, 0.18);
 }
 
 .badge-academic {

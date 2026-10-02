@@ -64,7 +64,7 @@ export default function ContactSection() {
             <button
               onClick={handleCopyEmail}
               style={{
-                background: copied ? '#10b981' : 'rgba(30, 58, 138, 0.08)',
+                background: copied ? '#10b981' : 'rgba(27, 77, 62, 0.08)',
                 color: copied ? '#ffffff' : 'var(--color-corporate)',
                 border: 'none',
                 borderRadius: 'var(--radius-full)',

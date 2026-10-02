@@ -54,7 +54,7 @@ export default function Navbar() {
               width: '34px',
               height: '34px',
               borderRadius: '50%',
-              background: 'linear-gradient(135deg, #1e3a8a, #0f172a)',
+              background: 'linear-gradient(135deg, #1b4d3e, #0e241c)',
               color: '#ffffff',
               display: 'flex',
               alignItems: 'center',
@@ -62,7 +62,7 @@ export default function Navbar() {
               fontWeight: 800,
               fontSize: '0.85rem',
               letterSpacing: '-0.02em',
-              boxShadow: '0 2px 6px rgba(30, 58, 138, 0.25)',
+              boxShadow: '0 2px 6px rgba(27, 77, 62, 0.25)',
             }}
           >
             EB
