@@ -6,6 +6,7 @@ import orientaAiImg from '../assets/orienta-ai.png';
 import automatonVerifyImg from '../assets/automaton-verify.png';
 import cellularAutomataGif from '../assets/automatos-celulares.gif';
 import chessImg from '../assets/chess.png';
+import flowImg from '../assets/flow.png'
 
 export default function PinnedProjects() {
   const [filter, setFilter] = useState('featured');
@@ -22,6 +23,20 @@ export default function PinnedProjects() {
       githubUrl: 'https://github.com/erick1-618/orienta-ai',
       deployUrl: 'https://orienta.erickborba.dev.br',
       image: orientaAiImg,
+      badgeText: 'Deploy Ativo',
+      badgeType: 'deploy',
+    },
+    {
+      id: 'flow-chamados',
+      name: 'flow-chamados',
+      title: 'Sistema de chamados integrado ao Trello',
+      description: 'Plataforma para gestão de chamados técnicos, com interação via interface do Trello. Comandos como apagar chamados e alterar estado de tickets são realizados arrastando blocos de uma lista para outra.',
+      language: 'Java',
+      languageColor: '#e27448',
+      tags: ['React.js', 'Spring Boot', 'PostgreSQL', 'Integração entre sistemas'],
+      githubUrl: 'https://github.com/erick1-618/flow-chamados',
+      deployUrl: 'https://flow.erickborba.dev.br',
+      image: flowImg,
       badgeText: 'Deploy Ativo',
       badgeType: 'deploy',
     },
@@ -54,7 +69,10 @@ export default function PinnedProjects() {
       badgeType: 'simulation',
       stars: 3,
       forks: 1,
-    },
+    }
+  ];
+
+  const otherProjects = [
     {
       id: 'Chess',
       name: 'Chess',
@@ -70,9 +88,6 @@ export default function PinnedProjects() {
       badgeType: 'featured',
       stars: 2,
     },
-  ];
-
-  const otherProjects = [
     {
       id: 'tcc_graphs',
       name: 'tcc_graphs',
