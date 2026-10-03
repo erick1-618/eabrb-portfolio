@@ -30,7 +30,7 @@ export default function PinnedProjects() {
       id: 'flow-chamados',
       name: 'flow-chamados',
       title: 'Sistema de chamados integrado ao Trello',
-      description: 'Plataforma para gestão de chamados técnicos, com interação via interface do Trello. Comandos como apagar chamados e alterar estado de tickets são realizados arrastando itens de uma seção para outra, estilo Kanban',
+      description: 'Plataforma para gestão de chamados técnicos, com interação via interface do Trello. Altera estado de um ticket movendo-o de uma seção para outra, estilo Kanban.',
       language: 'Java',
       languageColor: '#e27448',
       tags: ['React.js', 'Spring Boot', 'PostgreSQL', 'Integração entre sistemas'],
