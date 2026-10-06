@@ -230,7 +230,9 @@ export default function PinnedProjects() {
                   >
                     <img
                       src={project.image}
-                      alt={project.title}
+                      alt={`Prévia do projeto ${project.title} - Erick Borba`}
+                      loading="lazy"
+                      decoding="async"
                       style={{
                         width: '100%',
                         height: '100%',

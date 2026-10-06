@@ -153,7 +153,11 @@ export default function Hero() {
             {/* Image */}
             <img
               src={profileImg}
-              alt="Erick Borba"
+              alt="Erick Borba - Desenvolvedor Full-Stack e Pesquisador no CEFET/RJ, BNDES e Inmetro"
+              width="290"
+              height="362"
+              fetchPriority="high"
+              decoding="async"
               style={{
                 position: 'relative',
                 zIndex: 1,
