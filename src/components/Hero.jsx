@@ -56,7 +56,7 @@ export default function Hero() {
                   color: 'var(--color-corporate)',
                 }}
               >
-                Pesquisador IC
+                Pesquisador Bolsista
               </span>
               .
             </h1>
