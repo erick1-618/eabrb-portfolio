@@ -118,7 +118,7 @@ export default function Hero() {
               <a
                 href="#contato"
                 className="btn btn-secondary"
-                style={{f color: 'var(--text-secondary)' }}
+                style={{ color: 'var(--text-secondary)' }}
                 title="Enviar e-mail direto"
               >
                 <Mail size={15} />
