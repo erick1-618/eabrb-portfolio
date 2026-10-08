@@ -118,12 +118,23 @@ export default function Hero() {
               <a
                 href="#contato"
                 className="btn btn-secondary"
-                style={{ color: 'var(--text-secondary)' }}
+                style={{f color: 'var(--text-secondary)' }}
                 title="Enviar e-mail direto"
               >
                 <Mail size={15} />
                 Contato
               </a>
+
+              <a
+              href="/CV_Erick_Borba.pdf"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="btn btn-secondary"
+              style={{ color: 'var(--text-secondary)' }}
+              title="Visualizar currículo"
+            >
+              Baixar Currículo
+            </a>
             </div>
           </div>
 
